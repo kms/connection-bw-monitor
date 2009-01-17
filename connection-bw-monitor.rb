@@ -3,17 +3,14 @@
 require 'http-access2'
 require 'pp'
 
-#BIGFILE_URL = "http://gordons.ginandtonic.no/~kms/1KiB.zero"
-#BIGFILE_URL = "http://gordons.ginandtonic.no/~kms/512KiB.zero"
-BIGFILE_URL = "http://gordons.ginandtonic.no/~kms/1MiB.zero"
-#BIGFILE_URL = "http://gordons.ginandtonic.no/~kms/2MiB.zero"
+BIGFILE_URL = "..."
 
 THRESHOLD = 5500.0
 
-MAIL_FROM = "ringading@vice-chairman.net"
-MAIL_SMTP_HOST = "smtp.online.no"
+MAIL_FROM = "..."
+MAIL_SMTP_HOST = "..."
 MAIL_SMTP_PORT = 25
-MAIL_TO = ["andreas.henden@uloba.no", "kms@skontorp.net"]
+MAIL_TO = ["...", "..."]
 MAIL_SUBJECT = "Ringa-ding-dingeli-dong!"
 
 startt = Time.new
