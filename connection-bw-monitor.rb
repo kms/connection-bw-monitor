@@ -1,4 +1,9 @@
 #!/usr/bin/ruby1.8
+# connection-bw-monitor
+# Monitor download bandwidth.
+#
+# (c) Karl-Martin Skontorp <kms@skontorp.net> ~ http://picofarad.org/
+# Licensed under the GNU GPL 2.0 or later.
 
 require 'http-access2'
 require 'pp'
